@@ -13,3 +13,5 @@ Led policy development of one of the world's largest COVID machine learning gove
 **COO, Thomas Hamilton**
 
 Led and scaled operations, customer success, sales, marketing and subject matter expert teams as VP, Strategy & Operations and employee #1 at ROSS Intelligence (YC S15). Previously regulatory and commercial lawyer at Dentons, the world’s largest law firm. Passionate about health data regulatory reform and value based care.
+
+**Markdown**

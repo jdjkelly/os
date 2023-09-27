@@ -48,4 +48,5 @@ body:
       label: 'Context'
       description: "Comment on the reason or need for use (even if it's obvious)"
       placeholder: 'Add context here'
-      required: true
+    validations:
+      required: false

@@ -1,0 +1,55 @@
+name: Access Control Request
+description: Create a request for system access control
+title: 'sec: Access Control Request'
+labels: ['security', 'p1']
+body:
+  - type: checkboxes
+    id: who
+    attributes:
+      label: "Who is this access request for?"
+      options:
+        - label: "Me"
+        - label: "Someone else"
+          description: "Please fill out the following details"
+          required: true
+  - type: input
+    id: name
+    attributes:
+      label: "Name"
+  - type: input
+    id: effective_date
+    attributes:
+      label: "Effective date"
+  - type: input
+    id: role
+    attributes:
+      label: "Role"
+  - type: checkboxes
+    id: systems
+    attributes:
+      label: "Which systems apply to this access control request?"
+      options:
+        - label: "Google Workspace"
+        - label: "1Password"
+        - label: "Gitbook"
+        - label: "Slack"
+        - label: "Github"
+        - label: "Loom"
+        - label: "Around"
+        - label: "AWS SSO"
+        - label: "Auth0"
+        - label: "Terraform Cloud"
+        - label: "Vercel"
+        - label: "Datadog"
+        - label: "Stripe"
+  - type: input
+    id: other
+    attributes:
+      label: "Other systems:"
+  - type: textarea
+    id: context
+    attributes:
+      label: "Context"
+      description: "Comment on the reason or need for use (even if it's obvious)"
+      placeholder: "Add context here"
+      required: true
